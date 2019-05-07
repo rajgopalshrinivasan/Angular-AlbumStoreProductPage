@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductService} from "../product.service";
 import { Observable } from 'rxjs/Observable';
+import { Album } from '../album';
+
 
 @Component({
   selector: 'app-product-description',
@@ -8,7 +10,7 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./product-description.component.css']
 })
 export class ProductDescriptionComponent implements OnInit {
-  albumInfo ;
+  albumInfo: Album ;
   constructor(private _productService : ProductService ) { }
 
   ngOnInit() {
