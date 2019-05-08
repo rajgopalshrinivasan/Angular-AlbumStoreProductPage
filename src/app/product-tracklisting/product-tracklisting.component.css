@@ -4,7 +4,7 @@ padding-top: 10px;
 }
 
 ul{
-    list-style-type: none
+    list-style-type: none;
 }
 
 li{
@@ -13,5 +13,5 @@ li{
 }
 
 button {
-    line-height: 1
+    line-height: 1;
 }
